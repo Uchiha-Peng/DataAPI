@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot/images\banner1.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\images\product01.jpg" />
+    <Content Include="wwwroot\images\product02.jpg" />
+    <Content Include="wwwroot\images\product03.jpg" />
+    <Content Include="wwwroot\images\product04.jpg" />
+    <Content Include="wwwroot\images\product05.jpg" />
+    <Content Include="wwwroot\images\product06.jpg" />
+    <Content Include="wwwroot\images\product07.jpg" />
+    <Content Include="wwwroot\images\product09.jpg" />
+    <Content Include="wwwroot\images\product10.jpg" />
+    <Content Include="wwwroot\images\product11.jpg" />
+    <Content Include="wwwroot\images\product12.jpg" />
+    <Content Include="wwwroot\images\product13.jpg" />
+    <Content Include="wwwroot\images\product14.jpg" />
+    <Content Include="wwwroot\images\product15.jpg" />
+    <Content Include="wwwroot\images\product16.jpg" />
+    <Content Include="wwwroot\images\product17.jpg" />
+    <Content Include="wwwroot\images\product18.jpg" />
+    <Content Include="wwwroot\images\product19.jpg" />
+    <Content Include="wwwroot\images\product20.jpg" />
+    <Content Include="wwwroot\images\product21.jpg" />
+    <Content Include="wwwroot\images\product22.jpg" />
+    <Content Include="wwwroot\images\product23.jpg" />
+    <Content Include="wwwroot\images\product24.jpg" />
+    <Content Include="wwwroot\images\product25.jpg" />
+    <Content Include="wwwroot\images\product26.jpg" />
+    <Content Include="wwwroot\images\product27.jpg" />
+    <Content Include="wwwroot\images\product28.jpg" />
+    <Content Include="wwwroot\images\product29.jpg" />
+    <Content Include="wwwroot\images\product30.jpg" />
+    <Content Include="wwwroot\images\product31.jpg" />
+    <Content Include="wwwroot\images\product32.jpg" />
+    <Content Include="wwwroot\images\product33.jpg" />
+    <Content Include="wwwroot\images\product34.jpg" />
+    <Content Include="wwwroot\images\product35.jpg" />
+    <Content Include="wwwroot\images\product36.jpg" />
+    <Content Include="wwwroot\images\product37.jpg" />
+    <Content Include="wwwroot\images\product38.jpg" />
+    <Content Include="wwwroot\images\product39.jpg" />
+    <Content Include="wwwroot\images\product40.jpg" />
+    <Content Include="wwwroot\images\product41.jpg" />
+    <Content Include="wwwroot\images\product42.jpg" />
+    <Content Include="wwwroot\images\product43.jpg" />
+    <Content Include="wwwroot\images\product44.jpg" />
+    <Content Include="wwwroot\images\product45.jpg" />
+    <Content Include="wwwroot\images\product46.jpg" />
+    <Content Include="wwwroot\images\product47.jpg" />
+    <Content Include="wwwroot\images\product48.jpg" />
+    <Content Include="wwwroot\images\product49.jpg" />
+    <Content Include="wwwroot\images\product50.jpg" />
+    <Content Include="wwwroot\images\product51.jpg" />
+    <Content Include="wwwroot\images\product52.jpg" />
+    <Content Include="wwwroot\images\product53.jpg" />
+    <Content Include="wwwroot\images\product54.jpg" />
+    <Content Include="wwwroot\images\product55.jpg" />
+    <Content Include="wwwroot\images\product56.jpg" />
+    <Content Include="wwwroot\images\product57.jpg" />
+    <Content Include="wwwroot\images\product58.jpg" />
+    <Content Include="wwwroot\images\product59.jpg" />
+    <Content Include="wwwroot\images\product60.jpg" />
+    <Content Include="wwwroot\images\product61.jpg" />
+    <Content Include="wwwroot\images\product62.jpg" />
+    <Content Include="wwwroot\images\product63.jpg" />
+    <Content Include="wwwroot\images\product64.jpg" />
+    <Content Include="wwwroot\images\product65.jpg" />
+    <Content Include="wwwroot\images\product66.jpg" />
+    <Content Include="wwwroot\images\product67.jpg" />
+    <Content Include="wwwroot\images\product68.jpg" />
+    <Content Include="wwwroot\images\product8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

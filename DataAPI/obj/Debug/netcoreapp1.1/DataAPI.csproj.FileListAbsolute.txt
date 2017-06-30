@@ -1,0 +1,9 @@
+c:\users\uchiha\documents\visual studio 2017\Projects\DataAPI\DataAPI\bin\Debug\netcoreapp1.1\DataAPI.deps.json
+c:\users\uchiha\documents\visual studio 2017\Projects\DataAPI\DataAPI\bin\Debug\netcoreapp1.1\DataAPI.runtimeconfig.json
+c:\users\uchiha\documents\visual studio 2017\Projects\DataAPI\DataAPI\bin\Debug\netcoreapp1.1\DataAPI.runtimeconfig.dev.json
+c:\users\uchiha\documents\visual studio 2017\Projects\DataAPI\DataAPI\bin\Debug\netcoreapp1.1\DataAPI.dll
+c:\users\uchiha\documents\visual studio 2017\Projects\DataAPI\DataAPI\bin\Debug\netcoreapp1.1\DataAPI.pdb
+c:\users\uchiha\documents\visual studio 2017\Projects\DataAPI\DataAPI\obj\Debug\netcoreapp1.1\DataAPI.AssemblyInfo.cs
+c:\users\uchiha\documents\visual studio 2017\Projects\DataAPI\DataAPI\obj\Debug\netcoreapp1.1\DataAPI.dll
+c:\users\uchiha\documents\visual studio 2017\Projects\DataAPI\DataAPI\obj\Debug\netcoreapp1.1\DataAPI.pdb
+C:\Users\Uchiha\Documents\Visual Studio 2017\Projects\DataAPI\DataAPI\obj\Debug\netcoreapp1.1\DataAPI.csprojResolveAssemblyReference.cache
