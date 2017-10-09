@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.scrollView {
+  width: 100%;
+  height: 100%;
+  /* background-color: #edeef2; */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.listItem {
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.proImg {
+  width: 180rpx;
+  height: 180rpx;
+  padding-right: 40rpx;
+}
+
+.proTxt {
+  width: 70%;
+  height: 178rpx;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-bottom: 2rpx solid #F1F1F1;
+}
+
+.proName{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.proSalesCount{  
+  font-size: 12px;
+  color: #999999;
+}
+
+.proPrice{  
+  font-size: 12px;
+  color: #dd2727;
+  font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.View1{
+height: 500rpx;
+width: 100%;
+background-color: lightskyblue
+}
+
+.View2{
+height: 400rpx;
+width: 80%;
+background-color: lightpink
+}
+
+.View3{
+height: 300rpx;
+width: 70%;
+background-color: lightgreen
+}

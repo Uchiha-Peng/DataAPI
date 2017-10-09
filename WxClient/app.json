@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "src/pages/index/index",
+    "src/pages/prolist/prolist",
+    "src/pages/shopcart/shopcart",
+    "src/pages/prodetail/prodetail",
+    "src/pages/login/login",
+    "src/pages/register/register",
+    "src/pages/settings/settings"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Uchiha-Peng",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "white",
+    "selectedColor": "#48C23D",
+    "backgroundColor": "#000",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "src/pages/index/index",
+        "text": "首页",
+        "iconPath": "src/images/icon/shop.png",
+        "selectedIconPath": "src/images/selectedicon/shop.png"
+      },
+      {
+        "pagePath": "src/pages/prolist/prolist",
+        "text": "搜索",
+        "iconPath": "src/images/icon/search.png",
+        "selectedIconPath": "src/images/selectedicon/search.png"
+      },
+      {
+        "pagePath": "src/pages/shopcart/shopcart",
+        "text": "消息",
+        "iconPath": "src/images/icon/shopcart.png",
+        "selectedIconPath": "src/images/selectedicon/shopcart.png"
+      },
+      {
+        "pagePath": "src/pages/settings/settings",
+        "text": "消息",
+        "iconPath": "src/images/icon/my.png",
+        "selectedIconPath": "src/images/selectedicon/my.png"
+      }
+    ]
+  }
+}

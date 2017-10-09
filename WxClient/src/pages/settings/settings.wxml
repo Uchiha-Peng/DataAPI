@@ -1,0 +1,26 @@
+<view class="menus">
+      <navigator class="nav" url="../myrecords/myrecords">
+        <image class="icons" src="../../images/selectedicon/my.png"></image>
+        <text>个人信息</text>
+      </navigator>
+
+      <navigator  class="nav" url="../apply/apply">
+        <image class="icons" src="../../images/selectedicon/list.png"></image>
+        <text>地址管理</text>
+      </navigator>
+
+      <navigator  class="nav" url="../waitapproval/waitapproval">
+        <image class="icons" src="../../images/selectedicon/order.png"></image>
+        <text>我的订单</text>
+      </navigator>
+
+      <navigator  class="nav" url="../eqplist/eqplist">
+        <image class="icons" src="../../images/selectedicon/setting.png"></image>
+        <text>设置</text>
+      </navigator>
+
+       <navigator class="nav" url="../chosecompany/chosecompany">
+        <image class="icons" src="../../images/selectedicon/refersh.png"></image>
+        <text>退出</text>
+      </navigator>
+    </view>

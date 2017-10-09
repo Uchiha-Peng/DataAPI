@@ -1,0 +1,14 @@
+<view class="">
+  <scroll-view scroll-y="true" class='scrollView'>
+    <view wx:key="this" wx:for="{{arrays}}">
+      <view class='listItem'>
+        <image class='proImg' src="http://40.71.87.251:84/img/{{item.photoSrc}}"></image>
+        <navigator url='../prodetail/prodetail?ProID={{item.proId}}' class='proTxt'>
+          <view class='proName'>{{item.proName}}</view>
+          <view class='proSalesCount'>该产品累计销售{{item.salesCount}}笔</view>
+          <view class='proPrice'>￥{{item.price}}</view>
+        </navigator>
+      </view>
+    </view>
+  </scroll-view>
+</view>

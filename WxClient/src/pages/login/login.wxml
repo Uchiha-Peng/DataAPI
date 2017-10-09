@@ -1,0 +1,15 @@
+<view class='container'>
+  <view class="imageBox">
+    <image class="logo" src="http://40.71.87.251:84/img/logo.jpg"></image>
+  </view>
+  <view class='inputArea'>
+    <input class='userName' data-type='uName' bindinput='inputInfo' placeholder-style='placStyle' placeholder="Type a UserName/Phone/Email" />
+
+    <input class='userName' data-type='uPwd' bindinput='inputInfo' placeholder-style='placStyle' password='true' placeholder="Type a PassWord" />
+    <view class="btnGroup">
+      <button hover-class="btnHover" bindtap='Login' hover-start-time="10" class="btnLogin">登录</button>
+      <button hover-class="btnHover" bindtap='Register' hover-start-time="10" class="btnRegister">注册</button>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<view class='container'>
+  <swiper class='slider' indicator-dots="true" autoplay="true" interval="2000" duration="500">
+    <block wx:key="this" wx:for="{{photoList}}">
+      <swiper-item class='swiperItem' >
+        <image src="http://40.71.87.251:84/img/{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view>{{proName}}</view>
+</view>

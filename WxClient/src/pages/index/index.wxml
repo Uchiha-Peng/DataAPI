@@ -1,0 +1,51 @@
+<view wx:if='{{isShow}}' class="container">
+  <view class="selection">
+    <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500">
+      <block wx:key="this" wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="selection line margin">
+    <view class="header">
+      <text>精品推荐</text>
+      <text class="text-all">全部精品</text>
+    </view>
+    <view class="content">
+      <view class="content-item" wx:key="this" wx:for="{{datas}}">
+        <image src="{{item.src}}" />
+        <view class="content-item-text">
+          <text>{{item.txt}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="selection margin">
+    <view class="header">
+      <text>热门评测</text>
+      <text class="text-all">全部评测</text>
+    </view>
+
+    <view class="list-item" wx:key="this" wx:for="{{listItems}}">
+      <view class="list-item-images">
+        <image src="../../images/img/hour9.jpg" class="list-item-images-img" />
+        <image src="../../images/img/avatar.png" class="avatar" />
+      </view>
+
+      <view class="list-item-text">
+        <view class="list-item-text-title">
+          <text>{{item}}</text>
+        </view>
+
+        <view class="list-item-text-content">
+          <text>索尼手机对于颜色的选择也相当用心。这次的Xperia XZ Premium 除了闪银配色，还提供了炫黑、和金粉这两种，满足用户不同的喜好需求。</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
