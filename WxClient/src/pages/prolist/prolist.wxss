@@ -27,6 +27,9 @@
   height: 180rpx;
   padding-right: 40rpx;
 }
+.proTxt:hover{
+background-color: transparent;
+}
 
 .proTxt {
   width: 70%;
