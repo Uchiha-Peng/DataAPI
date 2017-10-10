@@ -28,6 +28,7 @@ Page({
             array[2] = res.data.photoSrc;
             array[3] = res.data.photoSrc;
             that.setData({ product: res.data, photoList: array })
+            console.info(that.data.product);
           }
         }
       })

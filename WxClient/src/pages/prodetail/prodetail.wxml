@@ -1,10 +1,47 @@
 <view class='container'>
   <swiper class='slider' indicator-dots="true" autoplay="true" interval="2000" duration="500">
     <block wx:key="this" wx:for="{{photoList}}">
-      <swiper-item class='swiperItem' >
+      <swiper-item class='swiperItem'>
         <image src="http://40.71.87.251:84/img/{{item}}" class="slide-image" />
       </swiper-item>
     </block>
+    <view class='slider-shadow'></view>
   </swiper>
-  <view>{{proName}}</view>
+
+  <view class='proInfo'>
+    <view class='ProSalesInfo'>
+      <view class='priceInfo'>￥{{product.price}}</view>
+      <view class='AnotherInfo'>
+        <view>包邮</view>
+        <view>累计销量{{product.salesCount}}</view>
+        <view>杭州</view>
+      </view>
+    </view>
+    <view class='proDesc'>
+      <view class='proNameTxt'>{{product.proName}}</view>
+      <view class='proDescTxt'>{{product.proDescribe}}</view>
+    </view>
+  </view>
+
+  <view class='fixedButton'>
+    <view class='btnLeft'>
+      <button class='btn' >
+        <image src='../../images/icon/message.png'></image>
+        <text>客服</text>
+      </button>
+      <button class='btn' >
+        <image src='../../images/icon/shop.png'></image>
+        <text>店铺</text>
+      </button>
+      <button>
+        <image src='../../images/icon/favorite.png'></image>
+        <text>收藏</text>
+      </button>
+    </view>
+    <view class='btnRight'>
+      <button class='btn' >加入购物车</button>
+      <button class='btn' >立即购买</button>
+    </view>
+  </view>
+
 </view>
