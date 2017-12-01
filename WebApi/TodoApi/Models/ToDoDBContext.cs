@@ -20,7 +20,7 @@ namespace TodoApi.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Data Source=40.71.87.251;Initial Catalog=ToDoDB;Persist Security Info=True;User ID=sa;Password=.uchihapeng00");
+                optionsBuilder.UseSqlServer(@"");
             }
         }
 
